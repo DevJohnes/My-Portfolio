@@ -1,0 +1,220 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="icon" href="images/favicon.ico">
+    <script src="https://kit.fontawesome.com/d3b9dc04b4.js" crossorigin="anonymous"></script>
+    <title>Johnes Portfolio</title>
+</head>
+<body>
+
+    <div id="header">
+        <div class="container">
+            <nav>
+                <div class="logo">Dev Johnes</div>
+                <ul id="sidemenu">
+                    <li><a href="#header">Home</a></li>
+                    <li><a href="#about">About</a></li>
+                    <li><a href="#services">Services</a></li>
+                    <li><a href="#portfolio">Portfolio</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                    <i class="fa-solid fa-x" onclick="closemenu()"></i>
+                </ul>
+                <i class="fa-sharp fa-solid fa-bars" onclick="openmenu()"></i>
+            </nav>
+            <div class="home-text">
+                <p><span>Frontend Developer & Designer</span></p>
+                <h1>Hello, I'm Johnes M</h1>
+            </div>
+        </div>
+    </div>
+    <!-- About Section -->
+    <div id="about">
+        <div class="container">
+            <div class="row">
+                <div class="about-col-1">
+                    <img src="images/My profile photo.jpg" alt="">
+                </div>
+                <div class="about-col-2">
+                    <h1 class="about-title">About Me</h1>
+                    <p>
+                    Welcome to our digital haven, where innovation meets aesthetics! 
+                    As a seasoned front-end developer and designer, 
+                    I craft seamless online experiences that captivate and convert. 
+                    With a keen eye for design and a mastery of cutting-edge technologies, 
+                    I bring your digital dreams to life. 
+                    Elevate your online presence with a touch of creativity and functionality
+                    – let's redefine digital excellence together!
+                    </p>
+                    <div class="tab-title">
+                        <p class="tab-links active-link" onclick="opentab('skills')" >Skills</p>
+                        <p class="tab-links" onclick="opentab('experience')" >Experience</p>
+                        <p class="tab-links" onclick="opentab('education')" >Education</p>
+                    </div>
+                    <div class="tab-contents active-tab" id="skills">
+                        <ul>
+                            <Li><span>UI/UX</span><br>Designing Web/App interfaces</Li>
+                            <Li><span>Web Development</span><br>Web App Development</Li>
+                            <Li><span>App Development</span><br>Building Applications</Li>
+                        </ul>
+                    </div>
+                    <div class="tab-contents" id="experience">
+                        <ul>
+                            <Li><span>2022 - Current</span><br>The University of Nairobi</Li>
+                            <Li><span>2021 - 2022 </span><br>Christian Industrial Training Centre</Li>
+                        </ul>
+                    </div>
+                    <div class="tab-contents" id="education">
+                        <ul>
+                            <Li><span>2023 - Current</span><br>Computer Science at UON</Li>
+                            <Li><span>2022</span><br>BBA from CITC </Li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Services section -->
+    <div id="services">
+        <div class="container">
+            <h1 class="services-title">My Services</h1>
+            <div class="services-list">
+                <div>
+                    <i class="fa-sharp fa-solid fa-crop"></i>
+                    <h2>Web Design</h2>
+                    <p>
+                    Web design blends aesthetics and functionality to create visually engaging and user-friendly websites. 
+                    It involves crafting layouts, choosing colors, and integrating graphics to deliver an optimal online experience. 
+                    Effective web design seamlessly merges creativity and usability for a compelling digital presence</p>
+                    <a href="#">Learn more</a>
+                </div>
+                <div>
+                    <i class="fa-sharp fa-solid fa-object-group"></i>>
+                    <h2>UI/UX Design</h2>
+                    <p>
+                    UX/UI design focuses on enhancing user experiences through intuitive interfaces. 
+                    UX (User Experience) design ensures smooth, meaningful interactions, 
+                    while UI (User Interface) design concentrates on the visual elements,
+                     fostering a seamless connection between users and digital products. T
+                     ogether, they create compelling, user-centric designs for optimal engagement.</p>
+                    <a href="#">Learn more</a>
+                </div>
+                <div>
+                    <i class="fa-brands fa-app-store-ios"></i>
+                    <h2>App Design</h2>
+                    <p>
+                    App design and development is the intricate process of creating software applications for diverse platforms. 
+                    It entails the seamless integration of visual aesthetics and functionality, employing coding languages and frameworks. 
+                    Skilled professionals meticulously craft user interfaces and code to produce intuitive, 
+                    engaging apps, contributing to the dynamic digital landscape.</p>
+                    <a href="#">Learn more</a>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- Portfolio section -->
+    <div id="portfolio">
+        <div class="container">
+            <h1 class="portfolio-title">My Work</h1>
+            <div class="work-list">
+                <div class="work">
+                    <img src="images/Work1.png" alt="work samples">
+                    <div class="layer">
+                        <h3>Website landing Page</h3>
+                        <p>Explore excellence with our past project, a captivating landing page that speaks volumes in design and functionality. 
+                            Our meticulous approach ensured a seamless user experience, blending aesthetics and usability. 
+                            Witness innovation firsthand as we turn concepts into compelling digital spaces, showcasing the artistry in web design.</p>
+                            <a href="#"><i class="fa-sharp fa-solid fa-link"></i></a>
+                    </div>
+                </div>
+                <div class="work">
+                    <img src="images/Work2.png" alt="work samples">
+                    <div class="layer">
+                        <h3>Website About Page</h3>
+                        <p>Check out our About Page masterpiece!
+                             We've skillfully blended concise storytelling and sleek design, creating a captivating digital identity. 
+                             Dive into a snapshot of our expertise, where every word and image collaborates to express your brand essence effortlessly. 
+                            Witness simplicity with impact.</p>
+                            <a href="#"><i class="fa-sharp fa-solid fa-link"></i></a>
+                    </div>
+                </div>
+                <div class="work">
+                    <img src="images/work3.jpg" alt="work samples">
+                    <div class="layer">
+                        <h3>Website Contact form page</h3>
+                        <p>
+                            Explore our Contact Form brilliance! Our project harmonizes simplicity and functionality, 
+                            offering users an effortless way to connect. Streamlined design meets seamless communication, ensuring a hassle-free experience.
+                            Elevate your website with our expertise in crafting user-friendly and effective contact forms.</p>
+                            <a href="#"><i class="fa-sharp fa-solid fa-link"></i></a>
+                    </div>
+                </div>
+                <a href="#" class="btn">See more</a>
+            </div>
+        </div>
+    </div>
+    <!-- Contact section -->
+    <div id="contact">
+        <div class="container">
+            <div class="row">
+                <div class="contact-left">
+                    <h1 class="contact-title">Contact Me</h1>
+                    <p><i class="fa-solid fa-paper-plane"></i>Contact@example.com</p>
+                    <p><i class="fa-solid fa-phone"></i>+254-712345678</p>
+                    <div class="social-icons">
+                        <a href=""><i class="fa-brands fa-facebook"></i></a>
+                        <a href=""><i class="fa-brands fa-square-x-twitter"></i></a>
+                        <a href=""><i class="fa-brands fa-instagram"></i></a>
+                        <a href=""><i class="fa-brands fa-linkedin"></i></a>
+                    </div>
+                    <a href="images/My CV.pdf" download class="btn btn2">Download CV</a>
+                </div>
+                <div class="contact-right">
+                    <form name="submit-to-google-sheet">
+                        <input type="text" name="Name" placeholder="Your name" required>
+                        <input type="email" name="Email" placeholder="Your email" required>
+                        <textarea name="Message" rows="6" placeholder="Your message"></textarea>
+                        <button type="submit" class="btn btn2">Submit</button>
+                    </form>
+                    <span id="msg"></span>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="copyright">
+        <p>Copyright ©Dev Johnes </p>
+    </div>
+
+
+
+    
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    <script defer src="main.js"></script>
+    
+</body>
+</html>
